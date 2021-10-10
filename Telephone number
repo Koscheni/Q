@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+        long number;
+        char answ;
+        cout << "Введите ваш номер телефона: ";
+        cin >> number;
+        cout << "Ваш номер телефона: " << number << " ?"<< endl;
+        cin >> answ;
+        if(answ == 'да')
+        { 
+        //system("pause");
+        //return 0;
+        }
+        if(answ == 'нет')
+        {
+            cout << "Введите правильный вариант: ";
+            cin >> number;
+            //system("pause");
+            //return 0;
+        }
+
+}
