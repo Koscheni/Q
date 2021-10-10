@@ -3,15 +3,13 @@
 
 int main(int argc, char **argv)
 {
-    char first[400], last[200];
+    char name[255];
 
     printf("Введите свое имя: ");
-    fgets(first, 255, stdin);
-    first[strlen(first)-1] = '\0'; /* удалить новую строку в конце */
+    fgets(name, 100, stdin);
+    printf("length = %d\n", strlen(name)); /* строка отладки*/
+    name[strlen(name)-1] = '\0'; /* удалить новую строку в конце*/
 
-    printf("Введите свое фамилию: ");
-    gets(last); /* переполнение буфера? что это такое? */
-
-    printf("Hello %s %s!\n", first, last);
+    printf("Привет %s!\n", name);
     return 0;
 }
