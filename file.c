@@ -10,6 +10,6 @@ int main(int argc, char **argv)
     printf("length = %d\n", strlen(name)); /* строка отладки*/
     name[strlen(name)-1] = '\0'; /* удалить новую строку в конце*/
 
-    printf("Привет %s!\n", name);
+    printf("Здравствуй, %s!\n", name);
     return 0;
 }
