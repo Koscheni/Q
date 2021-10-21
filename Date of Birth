@@ -1,0 +1,59 @@
+
+#include <locale.h>
+#include <stdio.h>
+#include <math.h>
+#include <conio.h>
+ 
+int main()
+{
+    int m, d, t, g;
+    printf("Введите день в году: "); scanf("%u", &t);
+    printf("Введите месяц в году: "); scanf("%u", &m);
+    printf("Введите год: "); scanf("%u", &g);
+    if (t<1 || t>31) printf("Такого дня нету!!");
+    if (t = 1) printf("Первое");
+    if (t = 2) printf("Второе");
+    if (t = 3) printf("Третье");
+    if (t = 4) printf("Четвертое");
+    if (t = 5) printf("Пятое");
+    if (t = 6) printf("Шестое");
+    if (t = 7) printf("Седьмое");
+    if (t = 8) printf("Восьмое");
+    if (t = 9) printf("Девятое");
+    if (t = 10) printf("Десятое");
+    if (t = 11) printf("Одиннадцатое");
+    if (t = 12) printf("Двенадцатое");
+    if (t = 13) printf("Тринадцатое");
+    if (t = 14) printf("Четырнадцатое");
+    if (t = 15) printf("Пятнадцатое");
+    if (t = 16) printf("Шестнадцатое");
+    if (t = 17) printf("Семнадцатое");
+    if (t = 18) printf("Восемнадцатое");
+    if (t = 19) printf("Девятнадцатое");
+    if (t = 20) printf("Двадцатое");
+    if (t = 21) printf("Двадцать первое");
+    if (t = 22) printf("Двадцать второе");
+    if (t = 23) printf("Двадцать третье");
+    if (t = 24) printf("Двадцать четвертое");
+    if (t = 25) printf("Двадцать пятое");
+    if (t = 26) printf("Двадцать шестое");
+    if (t = 27) printf("Двадцать седьмое");
+    if (t = 28) printf("Двадцать восьмое");
+    if (t = 29) printf("Двадцать девятое");
+    if (t = 30) printf("Тридцатое");
+    if (t = 31) printf("Тридцать первое");
+ 
+    if (t<1 || t>12) printf("Такого месяца нету!!");
+    if (t = 1) printf("январь");
+    if (t = 2) printf("февраль");
+    if (t = 3) printf("март");
+    if (t = 4) printf("апрель");
+    if (t = 5) printf("май");
+    if (t = 6) printf("июнь");
+    if (t = 7) printf("июль");
+    if (t = 8) printf("август");
+    if (t = 9) printf("сентябрь");
+    if (t = 10) printf("октябрь");
+    if (t = 11) printf("ноябрь");
+    if (t = 12) printf("декабрь");
+}
